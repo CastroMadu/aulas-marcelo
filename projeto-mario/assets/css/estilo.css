@@ -1,0 +1,85 @@
+body{
+    background-color: #48CCFC;
+    text-align: center;
+}
+#mario{
+    width: 300px;
+}
+#formulario{
+    background-color: #2E83A5;
+    text-align: center;
+    width: 290px;
+    height: 195px;
+
+}
+input{
+    margin-top: 9px;
+}
+#logar{
+    background-color: #34E34C;
+    border: #34E34C;
+    width: 256px;
+    height: 28px;
+    margin-top: 10px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 15px;
+    border-radius: 2px;
+    color:white;
+}
+#email{
+    width: 250px;
+    height: 28px;
+    margin-top: 20px;
+}
+#passoword{
+    width: 250px;
+    height: 28px;
+    margin-top: 9px;
+}
+#cadastro{
+    text-decoration: none;
+    color: white;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 13px;
+    margin-left: -5px;
+}
+#esqueceu{
+    text-decoration: none;
+    color: white;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+    font-size: 13px;
+    margin-left: 100px;
+}
+#texto_recuperacaodesenha{
+    margin-top: 20px;
+    font-size: 15px;
+    color: white;
+}
+#pagina2{
+    background-color: #2E83A5;
+    width: 300px;
+    height: 230px;
+}
+#pagina3{
+    margin-top: 20px;
+    background-color: #2E83A5;
+    width: 300px;
+    height:425px;
+}
+#pais{
+    width: 258px;
+    height: 34px;
+    margin-top: 25px ;
+}
+#cancelar{
+    background-color: red;
+    border: red;
+    width: 256px;
+    height: 28px;
+    margin-top: 10px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 15px;
+    border-radius: 2px;
+    color:white;
+
+}
