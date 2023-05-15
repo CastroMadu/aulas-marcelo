@@ -1,0 +1,52 @@
+body{
+background-color: #33B3A9;
+}
+    
+h1{
+font-size: 45px;
+text-align: center;
+}
+    
+#titulo{
+background-color: black;
+color: white;
+}
+    
+#corpo{
+background-color: #225FB8;
+color: white;
+}
+#titulo_form{
+    background-color: black;
+    color: white;
+    width:200px;
+    height:25px;
+    font-size:20px;
+}
+#corpo_form{
+    background-color: #1A5F5B;
+    border-radius: 1px;
+    border-color: black;
+    width: 950px;
+    height: 190px;
+    color: white;
+    font-size: 17px;
+}
+#cancela{
+    background-color:#358C58 ;
+    border-radius: 1px;
+    border-color: #358C58;
+    color: white;
+    width: 80px;
+    height: 30px;
+    font-size: 15px;
+}
+#confirma{
+    background-color:#FA411B;
+    border-radius: 1px;
+    border-color: #FA411B;
+    color: white;
+    width: 80px;
+    height: 30px;
+    font-size: 15px;
+}

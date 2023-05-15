@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dados dos clientes</title>
+<link rel="stylesheet" href="assets/css/estilo.css">
+</head>
+
+<body>
+<h1>Clientes Cadastrados</h1>
+<table>
+<tr id="titulo">
+<th>Cliente</th>
+<th>Idade</th>
+<th>Cidade</th>
+<th>Estado</th>
+<th>E-mail</th>
+</tr>
+<tr id="corpo">
+<td>Ana regina</td>
+<td>29</td>
+<td>Curitiba</td>
+<td>Paraná</td>
+<td>ana@gmail.com</td>
+</tr>
+<tr id="corpo">
+<td>Fernanda Silva</td>
+<td>42</td>
+<td>Joinville</td>
+<td>Santa Catarina</td>
+<td>fernanda@gmail.com</td>
+</tr>
+<tr id="corpo">
+<td>Rodrigo Ferreira</td>
+<td>70</td>
+<td>Curitiba</td>
+<td>Paraná</td>
+<td>rodrigo@gmail.com</td>
+</tr>
+</table>
+<br>
+<br>
+ <form>
+  <fieldset id="corpo_form">
+
+   <legend id="titulo_form">Cadastrar novo cliente</legend>
+   <label for="name" id>Nome:</label>
+   <input type="text" name="name" id="name"/>
+    <br>
+   <label for="idade">Idade: </label>
+   <input type="text" name="name" id="name"/>
+    <br>
+   <label for="city">Cidade: </label>
+   <input type="text" name="city" id="name"/>
+    <br>
+    <label for="state">Estado:</label>
+    <select>
+        <option value="pr">Paraná</option>
+        <option value="pa">Pará</option>
+        <option value="rs">Rio Grande do Sul</option>
+        <option value="canada">Amazonas</option>
+        <option value="ce">Ceará</option>
+        <option value="sc">Santa Catarina</option>
+    </select>
+    <br>
+   <label for="email">E-mail: </label>
+   <input type="text" name="email" id="email"/>
+    <br>
+    <br>
+  <button id="cancela">Cancelar</button>
+  <button id="confirma">Salvar</button>
+  </fieldset>
+  
+ </form>
+</body>
+
+</html>
