@@ -1,0 +1,17 @@
+#formzinho {
+    width: 1290px;
+    height: 505px;
+    margin-top: 20px;
+}
+#titlezin {
+    margin-top: 70px;
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+#baixin {
+    margin-top: 10px;
+    font-size: 20px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: gray;
+} 
